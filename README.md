@@ -16,5 +16,6 @@
 #### ETL pipeline with postgrest / mysql / mssql as source
 #### ETL pipeline with S3 / GCS as source 
 #### ETL pipeline with pyspark / databricks
+#### ELT with databricks and github repo
 
 ## Channel: datarockie, prasertcbs
