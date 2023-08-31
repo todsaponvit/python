@@ -13,5 +13,8 @@
 #### ML - Regression real estate price
 #### ML - Churn, A/B Testing
 #### ML - hyperparameter tuning / feature selection
+#### ETL pipeline with postgrest / mysql / mssql as source
+#### ETL pipeline with S3 / GCS as source 
+#### ETL pipeline with pyspark / databricks
 
 ## Channel: datarockie, prasertcbs
