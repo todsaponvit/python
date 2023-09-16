@@ -19,3 +19,4 @@
 #### ELT with databricks and github repo
 
 ## Channel: datarockie, prasertcbs
+## https://quay.io/repository/astronomer/astro-runtime?tab=info
