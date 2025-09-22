@@ -1,0 +1,19 @@
+name: Write to File with Action Example
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Write content to a file using Write File action
+      uses: actions/github/write-file@v1 # Example, check for the latest version
+      with:
+        path: ./output.txt
+        contents: |
+          Hello from GitHub Actions!
+          This is a multiline output.
+        write-mode: overwrite # or 'append', 'preserve'
