@@ -1,0 +1,22 @@
+name: Write to File Example
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Create a new file
+      run: echo "This is the content of the new file." > my_new_file.txt
+
+    - name: Append to an existing file
+      run: echo "This content will be appended." >> my_existing_file.txt
+
+    - name: Write multiline content to a file
+      run: |
+        echo "Line 1" > multiline_file.txt
+        echo "Line 2" >> multiline_file.txt
+        echo "Line 3" >> multiline_file.txt
